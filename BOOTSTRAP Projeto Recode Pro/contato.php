@@ -83,19 +83,22 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
   </div>
   <br><br>
 
-  <!--FAZENDO NOVO FORMULÁRIO -->
-   <div class="container">
+ <!--FAZENDO NOVO FORMULÁRIO -->
+ <div class="container">
   <form action="" method="post">
   <h3>Dúvidas,Elogios ou Sugestões:</h3><br>
 <div class="form-group">
+    NOME :<br>
     <input type="text" name="nome" class="form-control" aria-describedby="nome" placeholder="Digite seu nome">
     <small id="nome" class="form-text text-muted">Identificação não obrigatória.</small><br>
+    Deixe sua mensagem :
     <input type="text" class="form-control" name="msg" placeholder="Dúvidas,Elogios ou Sugestões"><br>
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Autorizo a publicação de meu comentário no site da Full Stack Eletro LTDA.</label><br><br>
     <input type="submit" name="submit" value="Enviar"><br>
   </div>
 </form>
+  
   
 
 <br><br><hr>
