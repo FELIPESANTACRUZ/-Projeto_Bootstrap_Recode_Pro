@@ -88,7 +88,7 @@ if (isset($_POST['nome']) && isset($_POST['msg'])) {
   <form action="" method="post">
   <h3>Dúvidas,Elogios ou Sugestões:</h3><br>
 <div class="form-group">
-    NOME :<br>
+    Nome :<br>
     <input type="text" name="nome" class="form-control" aria-describedby="nome" placeholder="Digite seu nome">
     <small id="nome" class="form-text text-muted">Identificação não obrigatória.</small><br>
     Deixe sua mensagem :
